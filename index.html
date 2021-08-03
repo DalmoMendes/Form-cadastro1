@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<!--
+    CEPROIRR - Centro Profissional de Informática.
+    Modelo Criado por DALMO SILVA MENDES
+    Site: ceproirr.com.br
+    Email coorporativo: ceproirr@ceproirr.com.br
+    Email da Ceproirr: ceproirr@gmail.com
+    Email Pessoal: dalmosilvamendes@gmail.com
+    Tel: (95) 99170-7450
+
+    Fazer Doação
+    Banco do Brasil
+    Agência: 0250-X
+    Conta: 87.489-2
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulário de Cadastro</title>
+</head>
+<body>
+    <header>
+        <h1 class="title_one" id="top">Formulário de Cadastro</h1>
+        <p class="subtitle">Seja bem-vindo usuário. Para se cadastrar preencha os dados do furmulário seguindo as orientações do formulário em cada seção.</p>
+    </header>
+    <h2 class="msg_error" style="display: none;">X</h2>
+<div class="container">
+<form action="" method="post">
+<section id="one">
+<article>
+    <h2 class="title">1 - DADOS DE IDENTIFICAÇÃO</h2>
+    <div class="div100">
+        <div class="cx50">
+            <label for="usu_primeiro_nome">Primeiro Nome:</label><br>
+            <input type="text" name="usu_primeiro_nome" placeholder="Primeiro Nome:">
+            <label for="usu_segundo_nome">Segundo Nome:</label><br>
+            <input type="text" name="usu_segundo_nome" placeholder="Segundo Nome:">
+            <label for="usu_mail_login">Email de login:</label><br>
+            <input type="text" name="usu_mail_login" placeholder="Email de login:">
+        </div>
+        <div class="cx50">  
+            <label for="usu_cpf">CPF:</label><br>
+            <input type="text" name="usu_cpf" placeholder="CPF:">
+            <label for="usu_senha">Senha:</label><br>
+            <input type="password" name="usu_senha" placeholder="******">
+            <label for="usu_senha_confirmar">Confirmar:</label><br>
+            <input type="password" name="usu_senha_confirmar" placeholder="******">
+        </div> 
+    </div>
+</article>
+</section>
+
+<section id="two">
+<article>
+        <h2 class="title">2 - NACIONALIDADE, GENERO E ENDEREÇO</h2>
+            <div class="div100">
+                <div class="cx50">
+                    
+                    <label for="usu_nacionalidade">Nacionalidade:</label><br>
+                    <input type="text" name="usu_nacionalidade" placeholder="Nacionalidade:">
+
+                    <label for="usu_data_nascimento">Data de Nascimento:</label><br>
+                    <input type="date" name="usu_data_nascimento" class="input" placeholder="Data de nascimento:">
+                    
+                    <label for="usu_genero">Gênero:</label><br>
+                    <select name="usu_genero" class="input">
+                        <option value="">Seu gênero</option>
+                        <option value="m">Masculino</option>
+                        <option value="f">Feminino</option>
+                    </select>
+
+                    <label for="usu_estado_civil">Estado Civil:</label><br>
+                    <select name="usu_estado_civil" class="input">
+                        <option value="">Seu estado civil</option>
+                        <option value="Solteiro(a)">Solteiro(a)</option>
+                        <option value="Casado(a)">Casado(a)</option>
+                        <option value="União Estavel">União Estavel</option>
+                    </select>
+                    
+                    <label for="usu_uf">Estado:</label><br>
+                    <select name="usu_uf" class="input">
+                        <option value="">Estado que mora</option>
+                        <option value="RR">Roraima</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="SP">São Paulo</option>
+                    </select>
+                </div>
+                <div class="cx50">
+                    <label for="usu_cidade">Cidade:</label><br>
+                    <select name="usu_cidade" class="input">
+                        <option value="">Cidade que mora</option>
+                        <option value="Boa Vista">Boa Vista</option>
+                        <option value="Mucajaí">Mucajaí</option>
+                        <option value="Pacaraima">Pacaraima</option>
+                    </select>
+
+                    <label for="usu_bairro">Bairro:</label><br>
+                    <select name="usu_bairro" class="input">
+                        <option value="">Bairro que mora</option>
+                        <option value="Buriti">Buriti</option>
+                        <option value="Centro">Centro</option>
+                        <option value="Equatorial">Equatorial</option>
+                    </select>
+
+                    <label for="usu_numero">Número:</label><br>
+                    <input type="text" name="usu_numero" placeholder="Número:">
+
+                    <label for="usu_rua">Rua/AV:</label><br>
+                    <input type="text" name="usu_rua" placeholder="Rua/Av:">
+                    
+                    <label for="usu_cep">CEP:</label><br>
+                    <input type="text" name="usu_cep" placeholder="CEP:">
+                </div>
+            </div>
+    </article> 
+</section>
+
+<section id="three">
+<article>
+        <h2 class="title">3 - CONTATOS DE TELEFONES E REDES SOCIAIS</h2>
+    <div class="div100">
+        <div class="cx50">
+            
+            <label for="usu_telefone">Telefone:</label><br>
+            <input type="text" name="usu_telefone" placeholder="Tel. Residencial">
+
+            <label for="usu_celular">Celular:</label><br>
+            <input type="text" name="usu_celular" placeholder="Tel. Celular">
+            
+            <label for="usu_whatsapp">WhatsApp:</label><br>
+            <input type="text" name="usu_whatsapp" placeholder="Número WhatsApp:">
+            
+            <label for="usu_segundo_email">Segundo E-mail:</label><br>
+            <input type="text" name="usu_segundo_email" placeholder="Segundo E-mail:">
+            
+        </div>
+        <div class="cx50">
+            
+            <label for="usu_facebook">Facebook:</label><br>
+            <input type="text" name="usu_facebook" placeholder="Facebook:">
+
+            <label for="usu_instagram">Instagram:</label><br>
+            <input type="text" name="usu_instagram" placeholder="Instagram:">
+
+            <label for="usu_youtube">Youtube:</label><br>
+            <input type="text" name="usu_youtube" placeholder="Youtube:">
+            
+            <label for="usu_outra_rede">Outra Rede:</label><br>
+            <input type="text" name="usu_outra_rede" placeholder="Outra rede social:">
+        </div>
+    </div>
+</article>  
+</section>
+
+<section id="four">
+    <article>
+            <h2 class="title">4 - FOTO DE PERFIL</h2> 
+        <div class="div100">
+            <div class="cx50">
+                <div class="div_center">
+                <label>Foto de Perfil:</label><br>
+                <img src="image/photo.jpg" width="200" height="200">
+                <br>
+                <label>Excluir:</label><br>
+                <a href="#">DELETE</a>
+                </div> 
+            </div>
+            <div class="cx50">
+                <label>Selecionar foto:</label><br>
+                <input type="file" name="usu_foto" id="perfil">
+                <button>Fazer Upload</button>
+                          
+            </div>
+        </div>
+    </article>    
+</section>
+    <button>Finalizar Cadastro </button>
+    <br>
+    <br> 
+    <button class="top"><a href="#top">Top</a></button> 
+</form>
+</div>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="js/script.js"></script>
+</html>
