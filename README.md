@@ -37,3 +37,5 @@ Esse formulário apresenta todos os campos em uma única página, sendo os campo
   <ul>
     <li>Foto de Perfil:</li>
   </ul>
+<hr>
+<img title="Formulário de Cadastro 1" src="https://github.com/DalmoMendes/Form-cadastro1/blob/master/Tela-Formulario.jpg" style="width: 800px; margin: auto;">
